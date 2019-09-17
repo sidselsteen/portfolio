@@ -17,7 +17,7 @@
 }*/ 
 
 .elementor-11 .elementor-element.elementor-element-74405c27 > .elementor-widget-container a:hover{
-    background-color: #DCDCDC;
+    background-color:  #f2f2f2;
 }
 
 .elementor-11 .elementor-element.elementor-element-7da9477 > .elementor-widget-container a:hover { 
@@ -28,17 +28,7 @@ background-color: #fff4b3;
 
 /* Forsidetekst - typewriter */ 
 
-
-
-.elementor-11 .elementor-element.elementor-element-bdd6cae > .elementor-widget-container {
-  overflow: hidden;
-  white-space: nowrap;
-  display: inline-block;
-  position: relative;
-}
-
-
-.elementor-11 .elementor-element.elementor-element-bdd6cae > .elementor-widget-container::after {
+.elementor-11 .elementor-element.elementor-element-bdd6cae .elementor-heading-title::after {
   content: "|";
   position: absolute;
   right: 0;
@@ -49,7 +39,7 @@ background-color: #fff4b3;
     width: 0%;
   }
   20%, 80% {
-    width: 40.2em;
+    width: 20.2em;
   }
 }
 @keyframes caret {
@@ -61,17 +51,18 @@ background-color: #fff4b3;
   }
 }
 
-.elementor-11 .elementor-element.elementor-element-bdd6cae > .elementor-widget-container {
+.elementor-11 .elementor-element.elementor-element-bdd6cae .elementor-heading-title{
   overflow: hidden;
   white-space: nowrap;
   animation: typewriter;
   display: inline-block;
   position: relative;
-  animation-duration: 15s;
+  animation-duration: 20s;
   animation-timing-function: steps(30, end);
   animation-iteration-count: infinite;
 }
-.elementor-11 .elementor-element.elementor-element-bdd6cae > .elementor-widget-container::after {
+
+.elementor-11 .elementor-element.elementor-element-bdd6cae .elementor-heading-title::after {
   content: "|";
   position: absolute;
   right: 0;
@@ -79,7 +70,6 @@ background-color: #fff4b3;
   animation-duration: 1s;
   animation-timing-function: steps(1, end);
 }
- 
-
+  
 
  
