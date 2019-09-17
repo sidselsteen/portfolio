@@ -11,4 +11,16 @@
  Tags:         To kolonner, Højre sidebar, Sidefod-widgets, Blog, Nyheder, Tilpasset baggrund, custom-menu, Indlægsformater, rtl-language-support, Fastgjort indlæg, Editor-stylesheet,       threaded-comments, translation-ready, buddypress, Egne farver, Udvalgte billeder, Fuld bredde, Temafunktioner, E-Commerce
  Text Domain:  oceanwpchild
 */
- 
+
+/*.elementor-11 .elementor-element.elementor-element-74405c27 > .elementor-widget-container {
+    background-color: red;
+}*/ 
+
+.elementor-11 .elementor-element.elementor-element-74405c27 > .elementor-widget-container a:hover{
+    background-color: #DCDCDC;
+}
+
+.elementor-11 .elementor-element.elementor-element-7da9477 > .elementor-widget-container a:hover { 
+background-color: #fff4b3;
+    
+}
