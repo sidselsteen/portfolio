@@ -24,3 +24,62 @@
 background-color: #fff4b3;
     
 }
+
+
+/* Forsidetekst - typewriter */ 
+
+
+
+.elementor-11 .elementor-element.elementor-element-bdd6cae > .elementor-widget-container {
+  overflow: hidden;
+  white-space: nowrap;
+  display: inline-block;
+  position: relative;
+}
+
+
+.elementor-11 .elementor-element.elementor-element-bdd6cae > .elementor-widget-container::after {
+  content: "|";
+  position: absolute;
+  right: 0;
+}
+
+@keyframes typewriter {
+  0%, 100% {
+    width: 0%;
+  }
+  20%, 80% {
+    width: 40.2em;
+  }
+}
+@keyframes caret {
+  0%, 100% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+.elementor-11 .elementor-element.elementor-element-bdd6cae > .elementor-widget-container {
+  overflow: hidden;
+  white-space: nowrap;
+  animation: typewriter;
+  display: inline-block;
+  position: relative;
+  animation-duration: 15s;
+  animation-timing-function: steps(30, end);
+  animation-iteration-count: infinite;
+}
+.elementor-11 .elementor-element.elementor-element-bdd6cae > .elementor-widget-container::after {
+  content: "|";
+  position: absolute;
+  right: 0;
+  animation: caret infinite;
+  animation-duration: 1s;
+  animation-timing-function: steps(1, end);
+}
+ 
+
+
+ 
